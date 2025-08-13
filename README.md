@@ -1,16 +1,22 @@
-# Flutter Image Demo
+# 📱 Flutter Image Showcase
 
-A simple Flutter application that demonstrates how to display an image from the local assets folder using `Image.asset`.
+A Flutter application demonstrating how to display images from **local assets** and **remote URLs**
 
-## 📸 Preview
-This app shows a centered image with padding, inside a `Scaffold` with an `AppBar`. The image scales to 80% of the screen width and keeps its aspect ratio.
+
+## ✨ Features
+- **Local Asset Image**
+  - Loaded using `Image.asset`.
+  - Rounded corners and drop shadow.
+  - Placed inside a card with a caption.
+  
+- **Network Image**
+  - Loaded using `Image.network`.
+  - Displays a **CircularProgressIndicator** while loading.
+  - Shows a friendly error message if loading fails.
+  - Rounded corners and card layout for a consistent design.
 
 ---
 
-## 🚀 Features
-- Displays an image from `images/`.
-- Responsive sizing using `MediaQuery`.
-- Styled `AppBar` with centered title.
-- Clean layout with padding and background color.
+## 📸 Screenshots
+![2q3rq3r](https://github.com/user-attachments/assets/d9a2ff85-617a-4170-9f5e-425d81ae2393)
 
-- ![image app](https://github.com/user-attachments/assets/62f2eeb9-5882-4f3e-add2-a99485811dd4)
