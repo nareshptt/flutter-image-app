@@ -1,16 +1,16 @@
-# imageflutterapp
+# Flutter Image Demo
 
-A new Flutter project.
+A simple Flutter application that demonstrates how to display an image from the local assets folder using `Image.asset`.
 
-## Getting Started
+## 📸 Preview
+This app shows a centered image with padding, inside a `Scaffold` with an `AppBar`. The image scales to 80% of the screen width and keeps its aspect ratio.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
+- Displays an image from `assets/images/`.
+- Responsive sizing using `MediaQuery`.
+- Styled `AppBar` with centered title.
+- Clean layout with padding and background color.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ![image app](https://github.com/user-attachments/assets/62f2eeb9-5882-4f3e-add2-a99485811dd4)
