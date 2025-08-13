@@ -8,7 +8,7 @@ This app shows a centered image with padding, inside a `Scaffold` with an `AppBa
 ---
 
 ## 🚀 Features
-- Displays an image from `assets/images/`.
+- Displays an image from `images/`.
 - Responsive sizing using `MediaQuery`.
 - Styled `AppBar` with centered title.
 - Clean layout with padding and background color.
